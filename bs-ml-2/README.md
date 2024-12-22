@@ -18,13 +18,10 @@ For demonstration purposes, the system uses two preconfigured license plate imag
 
 ## Installation
 
-### Using `uv`
-If you are using `uv` as your package manager:
-```bash
-uv install
-```
+### Create `venv`
+name it `.venv`
 
-### Using `pip`
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -32,7 +29,4 @@ pip install -r requirements.txt
 ---
 
 ## Running in Demonstration Mode
-This will run the system with a preconfigured setup for showcasing object detection and OCR functionality.
-```bash
-./presentation_run.sh
-```
+use `start_server.{bat,sh}` on root directories
