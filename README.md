@@ -1,9 +1,11 @@
 # Note
 ## uv
 `uv` is great, please use it.
+https://docs.astral.sh/uv/getting-started/installation/
 
 ## pnpm
 `pnpm` is great, please use it.
+https://pnpm.io/installation
 
 ## Dependency:
 - uv (this project use several python version, using uv will greatly help you)
