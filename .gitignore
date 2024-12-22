@@ -1,0 +1,72 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
+.pnp/
+.pnp.js
+
+# PNPM
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.esbuild/
+
+# Dependency directories
+.DS_Store
+*.pyc
+__pycache__/
+
+# FastAPI specific
+.env
+.env.*
+instance/
+*.sqlite3
+*.db
+db.sqlite3
+alembic/
+migrations/
+
+# Python caches and env
+*.egg-info/
+.eggs/
+*.egg
+*.pyd
+*.pyo
+*.pdb
+*.so
+.venv/
+activate
+pip-wheel-metadata/
+pip-log.txt
+.pytest_cache/
+.coverage
+.cache/
+
+# Vite specific
+.vite/
+.vscode/
+.idea/
+*.sublime-*
+output/
+
+# Editor/IDE specific
+.vscode/
+*.swp
+*.swo
+*.bak
+*~
+*.idea/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# DB file
+*.db
