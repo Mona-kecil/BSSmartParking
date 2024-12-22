@@ -10,13 +10,10 @@ This is the backend repository for project **BS**.
 
 ## Installation
 
-### Using `uv`
-If you have `uv` installed, you can quickly set up the project dependencies by running:
-```bash
-uv install
-```
-### Without uv
-If you’re not using uv, you can install dependencies using pip:
+### Create `venv`
+name it .venv then activate it
+
+### Install dependency
 ```bash
 pip install -r requirements.txt
 ```
@@ -24,6 +21,8 @@ pip install -r requirements.txt
 ---
 
 ## Scripts
+Use the `start_server.bat` or `start_server.sh` on root folder to activate FE BE and ML at once
+
 ### Clean the Database
 To clean the database, use the provided script:
 ```bash
