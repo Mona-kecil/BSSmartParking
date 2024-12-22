@@ -21,3 +21,10 @@ https://pnpm.io/installation
 1. cd into bs-ml-2
 2. `uv venv`
 3. `uv pip install -r requirements.txt`
+
+## Run the system
+### Windows
+run the .bat
+
+### MacOS / Linux
+run the .sh
